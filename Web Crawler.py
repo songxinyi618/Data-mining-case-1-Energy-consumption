@@ -42,3 +42,8 @@ for month in month_list:
 print(result)
 result.to_csv(r'D:\Data mining case\电能消耗量\weather.csv',index = True,encoding = 'utf-16')
 #2018年9月少了7，8，9，15四天
+
+################################delete weekend#################################
+for i in range(6,364,7):#从i=7到i=364,每隔7个数
+    index_col=0 #要指明第一列为行索引，否则python会自动加一列索引
+    data.drop(labels = [i, i+1], axis=0,inplace = True)
