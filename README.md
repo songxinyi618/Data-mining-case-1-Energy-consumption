@@ -3,10 +3,15 @@
 
 子文件：
 read data：将所有电能消耗量.xls一并读取于pyhton中
+
 summation：将每天T1, T2, T3, T4和总用电量合并在同一张表格中
+
 no weekend & no holiday：删除所有周末和节假日的数据
+
 Web Crawler：爬取365天的上海历史天气，保存在另一张表格中
+
 weather_CN2EN:将中文翻译成英文
+
 SQL server：将电能消耗量、天气、上班人数汇总于一张表格中
 
 语言：Python
