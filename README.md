@@ -1,4 +1,4 @@
-# Data-mining-case-Siemens
+# Data_mining_case_Siemens
 一句话介绍：将西门子2017-10-01至2018-9-30天的电能消耗量.xls用Python调整格式、合并、保存成CSV。统计每天的T1, T2, T3, T4和总用电量，保存在一张表格中。爬取365天的上海历史天气，保存在另一张表格中。统计期间每天进入西门子大楼的人数，保存在第三张表格中。最后选取三张表格中的有用信息，汇总于一张表格中，用Rapidminer调用多元线性回归、神经网络等操作符进行处理。
 
 子文件：read data（将所有电能消耗量.xls一并读取于pyhton中）；summation（将每天T1, T2, T3, T4和总用电量合并在同一张表格中）；no weekend & no holiday（删除所有周末和节假日的数据）；Web Crawler（爬取365天的上海历史天气，保存在另一张表格中）；weather_CN2EN（将中文翻译成英文）；SQL server（将电能消耗量、天气、上班人数汇总于一张表格中）
